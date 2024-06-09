@@ -97,3 +97,4 @@
 /home/jewel/dotnet_ws/migration_test/obj/Debug/net8.0/migration_test.pdb
 /home/jewel/dotnet_ws/migration_test/obj/Debug/net8.0/migration_test.genruntimeconfig.cache
 /home/jewel/dotnet_ws/migration_test/obj/Debug/net8.0/ref/migration_test.dll
+/home/jewel/dotnet_ws/migration_test/obj/Debug/net8.0/migration_test.sourcelink.json

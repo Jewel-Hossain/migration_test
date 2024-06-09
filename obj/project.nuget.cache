@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PuP0FEQG2ILMLIgc2jGhRkdrX/x5I3ofum5+SoYVeNt5Vp/dx/4b/7ZpVa36q2uXzjf/r66yW/VMMrSKuOhFZg==",
+  "dgSpecHash": "7IjCnNUwYPn40KTdYEB7NNxCra49bx4tTwk2c5bErbB5O7Bbj62cAez3LkNCrEDQPvGUju724brO+EUlmoDG1g==",
   "success": true,
   "projectFilePath": "/home/jewel/dotnet_ws/migration_test/migration_test.csproj",
   "expectedPackageFiles": [

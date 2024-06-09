@@ -10,7 +10,8 @@ builder.Services.AddDbContextPool<ApplicationDbContext>(options => options
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", (ApplicationDbContext ctx) => ctx.Set<Part>().FromSqlRaw("SELECT * FROM Parts"));
+app.MapPost("/add",(Part part, ApplicationDbContext ctx)=> ctx.Set<Part>().FromSql($"insert into parts (branchid,\"time\") values ({1},{DateTime.UtcNow});"));
 
 app.Run();
 
